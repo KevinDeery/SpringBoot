@@ -1,0 +1,10 @@
+services:
+  db:
+    restart: unless-stopped
+
+    networks:
+      db:
+        driver: bridge
+
+    volumnes:
+       db:
