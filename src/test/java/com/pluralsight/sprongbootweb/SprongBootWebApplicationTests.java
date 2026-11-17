@@ -1,10 +1,10 @@
-package com.beginner.springboot;
+package com.pluralsight.sprongbootweb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class SprongBootWebApplicationTests {
 
     @Test
     void contextLoads() {
